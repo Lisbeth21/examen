@@ -1,0 +1,31 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "examen primer parcial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon ./index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisbeth21/examen.git"
+  },
+  "keywords": [
+    "programacion"
+  ],
+  "author": "Lisbeth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisbeth21/examen/issues"
+  },
+  "homepage": "https://github.com/Lisbeth21/examen#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  }
+}
